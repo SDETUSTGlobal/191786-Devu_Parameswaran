@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>First Page</title>
+   <link rel="stylesheet" href="static/first.css">
+</head>
+<body>
+    <form class="form"  method="post">
+     <!-- form header -->
+     <div class="form-header">
+     <h1>Enter Details</h1>
+     </div>
+    <!-- form body -->
+    <div class="form-body">
+    	  <div class="horizontal-group">
+        <div class="form-group left">
+            <label for="Name" class="label-title">Name</label>
+            <input type="text" id="name" name="name1" class="form-input"  />
+        </div>
+        <div class="form-group right">
+            <label for="UID" class="label-title">UID*</label>
+            <input type="text" id="uid" name="uid1" class="form-input" required  />
+        </div>
+    	</div>
+        <div class="form-group">
+  	    <label for="CName" class="label-title">Company Name</label>
+            <input type="text" id="cname" name="cname1" class="form-input" >
+        </div>
+
+	<div class="form-group">
+  	    <label for="email" class="label-title">Email</label>
+            <input type="email" id="email" name="email1" class="form-input">
+        </div>
+
+    </div>
+
+ 	<!-- form footer -->
+	<div class="form-footer">
+	<span> </span>
+  	<button type="submit" class="btn">Create</button>
+	</div>
+    </form>
+
+</body>
+</HTML>

@@ -1,0 +1,68 @@
+body {
+    background:linear-gradient(to right, #78a7ba 0%, #385D6C 50%, #78a7ba 99%);
+
+}
+h1{
+  font-size: 50px;
+  text-align:center;
+  color:#e6e6e6;
+  padding:20px 0;
+  font-family:Sans-serif;
+
+}
+
+
+.card {
+    background-color: #fff;
+    border-radius: 18px;
+    width:650px;
+    margin:30px auto;
+   /* box-shadow: 1px 1px 8px 0 grey;*/
+    height: auto;
+    padding: 20px 20px 20px 50px;
+}
+.card table {
+    border: none;
+    font-size: 16px;
+    height: 70px;
+    width: 80%;
+}
+.card table tr td{
+ font-family: sans-serif;
+    font-weight: bold;
+    color: #009879;
+}
+
+.main-details{
+  width:650px;
+  margin:30px auto;
+  border-radius: 10px;
+}
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+     color: #ffffff;
+     boder-color:#DCDCDC;
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.active-row {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #009879;
+     border-bottom: 2px solid #009879;
+      background-color: #f3f3f3;
+}
